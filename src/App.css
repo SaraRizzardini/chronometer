@@ -12,7 +12,50 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#chrono-container {
+	position: relative;
+	margin: 300px auto 0;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(0deg, #000, #272727);
+color:white;
+font-family:Courier New;
+}
 
+#chrono-container:before, #chrono-container:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -3;
+	animation: steam 20s linear infinite;
+}
+.button{
+z-index:1;
+}
+.icon{
+z-index:-1;}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+#chrono-container:after {
+	filter: blur(50px);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
