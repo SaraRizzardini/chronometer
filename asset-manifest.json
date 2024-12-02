@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chronometer/static/css/main.a3604869.css",
+    "main.js": "/chronometer/static/js/main.f9f6aca6.js",
+    "static/js/453.ae00f2f6.chunk.js": "/chronometer/static/js/453.ae00f2f6.chunk.js",
+    "index.html": "/chronometer/index.html",
+    "main.a3604869.css.map": "/chronometer/static/css/main.a3604869.css.map",
+    "main.f9f6aca6.js.map": "/chronometer/static/js/main.f9f6aca6.js.map",
+    "453.ae00f2f6.chunk.js.map": "/chronometer/static/js/453.ae00f2f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3604869.css",
+    "static/js/main.f9f6aca6.js"
+  ]
+}
